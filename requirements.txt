@@ -1,0 +1,16 @@
+# ── Core (required) ──────────────────────────────────────────
+PySide6>=6.7.0
+watchdog>=4.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+colorlog>=6.8.0
+
+# ── MIME detection — Windows bundled DLL (no libmagic needed) ─
+python-magic-bin>=0.4.14
+
+# ── Optional features ────────────────────────────────────────
+reportlab>=4.2.0        # PDF export
+plyer>=2.1.0            # Desktop notifications
+psutil>=5.9.8           # Process info (system tray)
+# yara-python>=4.5.0   # YARA rules — needs Visual C++ Build Tools;
+                        # install separately if needed (see README)
